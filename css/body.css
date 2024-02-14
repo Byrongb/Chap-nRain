@@ -35,7 +35,7 @@ body {
 
 
 .reservation {
-    border: 2px solid white;
+    border: 3px solid white;
     background-color: transparent;
 }
 
@@ -211,7 +211,7 @@ header.hide {
 }
 
 .line {
-    border-top: 2px solid white; /* Estilo de la línea */
+    border-top: 2px solid rgb(255, 255, 255); /* Estilo de la línea */
     width: 50px; /* Ancho de la línea */
     position: absolute; /* Posiciona las líneas respecto al contenedor del título */
     top: 50%; /* Alinea las líneas verticalmente al centro */
@@ -226,57 +226,3 @@ header.hide {
     right: -60px; /* Posiciona la segunda línea a la derecha del título */
 }
 
-.content-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.swiper-container {
-    padding: 35px;
-    width: 70%;
-    height: auto; /* O define una altura específica si lo prefieres */
-    margin: auto; /* Centra el carrusel si hay espacio adicional */
-    position: relative; 
-}
-
-.swiper-slide {
-    display: flex;
-    justify-content: center; /* Centra la imagen horizontalmente si es más pequeña que el contenedor */
-    align-items: center;
-}
-
-.description {
-    width: 30%; /* Ajusta según necesites */
-    padding-right: 75px;
-    padding-left: 75px;
-    margin-top: 20vh;
-}
-
-/* Asegúrate de que las flechas estén visibles y dentro del carrusel */
-.swiper-button-next, .swiper-button-prev {
-    color: #fff; /* O el color que prefieras */
-    position: absolute;
-    top: calc(50% + 20px); /* Baja las flechas un poco más */
-    transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5); /* Fondo para mejor visibilidad */
-    border-radius: 50%;
-    width: 30px; /* Ajusta según necesites */
-    height: 30px; /* Ajusta según necesites */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper-button-next {
-    right: -35px;
-}
-
-.swiper-button-prev {
-    left: -35px;
-}
-
-.swiper-slide img {
-    max-width: 70%; /* Asegura que la imagen no exceda el ancho del contenedor */
-    max-height: 100%; /* Asegura que la imagen no exceda el alto del contenedor */
-    object-fit: contain; /* Ajusta la imagen dentro del contenedor sin perder sus proporciones */
-}

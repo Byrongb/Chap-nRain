@@ -12,42 +12,16 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="content">
         <h2 class="title">VIEW OUR MENUS</h2>
         <div class="rectangles">
-            <div class="rectangle" style="background-image: url('https://lh3.googleusercontent.com/pw/ABLVV87bivTYJ5onqh0ulgJo7b2jEngF0U8tHGikJuozp3pmbxGaSIGHusPvv5RbpHMPGdY6YjpJOffMSYyBWglGIHE5r5pIOOxP-Fe0tZv-rCcJ0QjTuK7EjLUgwGuYd-ylBgAEqDEIDm--biq9nsZiVnIcz02VQiqG9PrHKOLuqxL7CSVi6KFHYK-HAQhRsXMUn-rhF0X91mWjGggnd86XOJOBn_pDOdZD0yv7ZAXKJq4ekYe7AJ5LYuu_kwecXvLXM1Ha28Y-bH8xS1W67MPjt1GpeT2CYjHOT-S1rmh-2s7b_Hx6jR7Qu_RxdZsp4B03fM-FC0NBvHfEZW6W6trXKq0N8dv-nJc1-HPeoySXUKvYdAGDjVMrWltRoZKrQ2eB3DrE3vFRmXGLthbatgb47P0nYYpfFB7zg0JUDItHeLSrxAvFu2LGtS2cm2VWEBmN0NfVbWMlPxXiHMrsdjV-zqHAK-nXlgrgYCYs7asKVn6mujGS-OnsJ0zQ-J6mXSmex_LlHU6AMi4Jo0H3nL2sDTUevZAHM9bjczzWTi2fmxB2GH8WFf1u6nrz6V17tosk1eCzJZxrmEY_15IzXBxOvc-MZKlvM_35jxynoRoA2B8ve7jRnjXToa3dRW1QBh8n6P2UhuEz0XnUc-vQPZ3JQDENTh-4_V0ettwU-98G1ya4OVBlVpfPUy6hrcxsChA0jxNYQIfOa8t4qOPD9YeD-bZ9Ea8JwNtxn50Mvl4gKf0eb2QcnTA1SiB-1yhpkCsVPQ_3DmlFOt78e47OySPipUvs66hNhEEaa1Zm_ep31mTWFSASq_zz7_E7zI-meC46qCmvOKyS_S_1uMXYa0dP1tRwMSkqMgwg10zNPph3DHsih_7zJQ_UsJBfj028GvpCxWGBL7StwGK7vCrC5QwlKI_lYw=w488-h482-s-no-gm?authuser=0');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">STARTES</span></div></div>
-            <div class="rectangle" style="background-image: url('https://lh3.googleusercontent.com/pw/ABLVV84FfPBA5-ygc3dv1B0hshOBcyUBd5DbVtlTo1qjPLc6WBepjh34nsVOq-9TsRyesRS7Aw8Tuvpea6O402go6s-0KBkvbcjLYvtgf9RGAlkmloPEu5tqQuTyAf_lYG5avFywAhBDCe0JQPhKTinrjIV8d6MxqR31XI-dnr9ImP6jZxGx-srdvkelEBv_tvckqK-LcXIWun206-f45t8EOJ8_Wsra0QGTZckP5mLJv_3BuXWJh5JAsmPBhwI_maonl10VHcXrqeUoOpSwvNaTIrmSj4R-OQmrv2yKoL1qS_Xg6M7IbwSNdGYlntGhiawmqcWlCnFqEnu6uLU6EIMWFiHgzzhTjNBr9YAwAvHuscV-nyIBErzyHPZNojcCCDURUyY1jCVKaHo50YNcuxETMlKhPZdeXILiZXqacL6wKochTC9NLm2_w7AjBI58gFjuqi85lTAxR9D-MSBL6sbpaGTkC0ojrnrlaUYqpmjZo1CvDBrwZJRDAd-9uOztb2S-6XGceUr2ffUcMkjBGQn5We1BvyfbCRLI4-R3YpLbrkKYuZHJ4x_VXw6uzdAWUqQSoBlBLta7BT9E-wMLHkwzOisI4Gdy0VWix5OlcGQU6CLTmq3vSSLyrHtOxUu1kkaQWcJTkD002ZfD7lQSSGXopQu3gkJ18VtDjXo91ALd-hZwJn-M-FR4YEd5NyCq6sTBKtqP_v2kWlC5kfI6UuBIPe0ATNdpVvT1-h3-G4o8vBs7EpWWjPsm6M_W2PYMqa9iAMK63hFoDJgFWWULSGmt-eqbpv4MEWmMMIq5Z9kz-knIOWJwQAF0pTV4P9ysNwR7IUUsvIl0ub3JY2wE7YLaHDyqtt9hJWJklA4yORrsAK9S2yEdo7eXW9vpsb6YJbYNh1d9LS_F2cbeuqKynIepCD8ozQ=w482-h490-s-no-gm?authuser=0');"><div class="zoom-container"><a href="#"></a> <span class="rectangle-name">MAIN COOURSES</span></div></div>
-            <div class="rectangle" style="background-image: url('https://lh3.googleusercontent.com/pw/ABLVV85a-5Re0V48BsQSMrLdWjBnp6jFYTaL0ZtPbSownHr4gFAfskeMZtTpLgjhQmB6WzPEvOQ8qcjeDAMr2XZ9GTob12F9NYkXrnO4Cd8kxiRj8Wafyf7DCbHRpZeVerLb4fmbfpLQnbISUgSou6rncInfXai3Ohzux2h64Cuz_HAyaOteZA6rjWcry8jVYwXj65Q4z0G8uEApceM8UoqmvBNmhd4HX9b1HKsPEp_Fi6F9TWg0N6X6x8vgalhTAi9NrccGNu3_1WUQ7AbgleCD6CIsqXmnuY9J25s2zsTc6B4hDBftSsIGHgsg942z7zIgT47nptMxZMiQZRk84o8mRpBpimS3xQHFvVWmjq4Vx4-a_1ZBsZ2QCbNO39fPPWGizVd5nXncSAZnOZhkidorBtYkSK1CyoJS-h9FEDSlsCNHdlgPbYJWkL1hqTOQdfHvxM00NFPIc5cHQNSACcA4uRIKWW7oyv8ujdC1cRY_SUPEafdPndCvaF7xEDgRknroyd3QrBynge4CEbVXmjH7VW12azzp8Xr6DpGvZYLl_n3oyP98_sOu74cejPL0Dhe--m_-4d-kCuwPJ_EaXwZ8cGD33E2acTHeK_V67UwdfY9YgsFPc4-hvlVMOndeC7s89pCiLjWvh0O1UP59MVFtBZ3ZQvwPche0-edRp-1ffEqRMHcbhltk-gNFh06xJhfUvMcmScs6DKHOdg55x1e4F6RWjS5eOIuVXuiAcD-_detdDxbY7eG4lH6YYGaf0ug8e1ggoTG7wVnFmcU1McDnQRUxmDFfI9oQDA1q2FmLP0JfI1xik7T6Vmpu_fhTTXShKSWXpSkivtGr_ximq_MGrHsL9sunSJKzzdVrPvCw1M10eHFSHhCTH4XqDjZgU1jUZ_HtFlBCQFShD5w6iyePO5MVcA=w241-h486-s-no-gm?authuser=0');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">CHEF RECOMMENDED</span></div></div>
-            <div class="rectangle" style="background-image: url('https://lh3.googleusercontent.com/pw/ABLVV87NPECMyRe5u5vIlyEHL9dl2v4mTIZr8oRjqC4rjrHEsnMVOgjd4NwlHeaLXDwk3UeGwZ3uRXl68g7BGOxWkB5x89eYpioGqZzRzprfO5ACSGtfH644o9frnd4WtDB2QOM-L8Cx-6VAfCwNJw6iqC4dDqaopIBbR1ATdY4KAQfD-QMI6KkFgJ6rGRLSimBCSPJaGVWoEn7zdVMBJZmhHEUzizepwg-UU0H-LYPcIHtWZQAMI-g4sHYo9H6QiedxpgC8yOK8CgE8UxASOQDH8X_1chByg8X-tTe0_nAXKRupTbkwS0OVixqejGBbYoOnyicor3ZszHgP-tvLjCBI5vqNbSvw2dg1if7M0ZmuM9E-iEYZVi8s6If80h0KsM6mkyJu0FeKPTb1vv7CtGzjsi4pSv_aOvSemhFisZDfitS2je6kWurboGnj7Fau92q-oB_BMoWBtWi7OCqZlebiUydJdq7zKci6wUqEknn80-F5SKsXsgDcoIYQU4CVR-DW3BwtH86vlarMOPtgKXn2hIMu1Yw5yTHtHN2reQ43hhV5UHQOtFkwwXMipIrmjW2OJLCesxdF2XpaYv9GbF7SjzscjCZcv2IUJFJPomC24CVJz3xcNdK19GPtOGTEuaIUSXd61ikYfwaBYTqVNWU5aG1yxztKfsrKtpNJ2oWrN9155QyN6aonMLyyotP_MpNrizYv37_gkIFvJb4grEVUlriZl7Iaz74P0HBxh-j1f-NWC2j8Zq3efj9ajfma8yDJV1G7AqIBveyok46SMuKfyzZN0JdwslZHhTfhgKgLpdNuAtHIwxPmWB5y_N_WIqtIskkZ-mvP-FSZNfIW4weWNsuhBHcCbi8c7uGXpXp38C1-MylC1V9pMn8qoWLqclN7vaKID90TY0fhkr2D-r-S8Pc2HQ=w477-h486-s-no-gm?authuser=0');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">DRINKS MENU</span></div></div>
+            <div class="rectangle" style="background-image: url('https://lh3.googleusercontent.com/fife/AGXqzDk9CAOz-_dGhoZPN8EDPcTaoN8M15r_lVvEin1cLXJTrPJgtnG1LKDADY2-hvOExC1ZzKKlX3-SqhJTDysNMHqwFiV_d05LBo_bg8wL_fRVcp28YVMjxeyfyCfnTvkePasD7R0EXmavbItPWm7yj8lto6hz_FvnE1rr7GbxHKwAMAgUHS_DC1JrVjUa_zwcJun4yGaQK8sMohyPJ16MFX4kgJkomGyG_IkugFnhRRlqjpXxRlbn3mGq52_ilvkGofeMY6YrlJOLtJnwUl9UW3BqMKxVAksQLafSsrHlic3xElgxFmZV1G9F_zspBo9r1OKkm0h_BnZevR4hiiEd3AEYn6aP48CqRyCHvFIjnQY7x9y8GnnKeY0IGa_NlkLMoyGRM951ikIDu7IRx7RQU3Rv50dfvN6GehIVdKmcLBnvSOIU8lKl_DQIhc_BZZEZAk0q3hgwLggsaLnrScrGvTDFzVBGkiAuz0Lmna16OtV4K9HHWkKv7QyjkI7LsLgVelk_b4W14IPVz1ZAFARWTI5892pr0z3Ya-X9kCr58o8rEeOqDbVGIMP6azk4neAngLazx1D1fkH3u0K8_-XSWQejWZ-Q-g00xAxiMU2ieKFXtCzlChpGly3128zdhgHY1iG9xJJzbV5ANi1HudgVEr1uqJQQ0U7_9zGqE6ASZnOM9yfv5m5fkLsQQmmwdM6rsN7hGadQ6f-Voc4W7AOyoYQ4rx-dEz6YeHtQPR1z9664yhsnOn3BvVTH4AyzDECQJVKVXPGoOJAg0Nyqjpj88L6TKLlIR03zStwLPpIHN1e04gm158zHgrm_fqVDnZfHT84E78qpDI5w4OsXAtjE2_A3EZQDrYIM735IA6O0v8QgJ0ENFulK_NOrALSbqAN_xO6tVo8qSkUs8DKB6Mv4FNNHpz1Vf-KIsHunUMFIcVYbWyc_zE7c7nVWFZ-wc0h4d6mUDS1iy-SCRj_nsuUSEHhYJzXVAUgLyOK7sC3_7zYDVmvOMugalVNu375QkAWk14R8Ts4jCqnROzSlLTahjsqZ1-oPP-BiV-eL5BzDlgXH1KMTBRaxVJn-bTHRxRxbgVT2S6XqUDUvhyRMQfhpP17TQkAIDJBwveeL1ox8DGPkVnhqRILamAotnhhTIBtMUHtkdumlhjWsPfCzV8rXhX1lGtcvMVgM7h1HQ_D4onH2yZoqbP2Wll5U71nfKTiKrcEmfmm5pjZ90dJwSVbtTZu6D7et1tee36IPDgLepHb-b-ZDihYdC4UJ1fwhawSHauD_7yyfYdgHQSdE3tuqdL9KLSjgk7BeXCByOFkC6m0vtDWU7XPa6Ixj5GNU-qx31aZfsYGwOBmaMqLPj7yDHyJf4kU8zQB7axiRFbCnb4uTKCYayDhIq5tHw78FOdHvQz2p5o8WIJ7-loiJXw_e9m2xM_91SnApL3L4QGd3D-s9Pi4bMhrQ1nJrtpMYZNzOlbDGPrDQAwXZHgVAqQtWhd7oYRaD6NtYw16d995g4T5f4pEzc6NADyuE6Gw_aNFMP0znMKvGJyfnUxQN-7PMpqy3caxaq2ATQLnIwUF2RL0UCrsC0RM6rAWiksXsidNxlsrKdgdsP4_Zu6Ute6Z0waFKNU0gQ0yzsp8Ln_aZFAf0Z6R1o4ADYSleGPPJkEkZVSBGoMYRp1q0muEW8ogjTf92oVz4hUqnoIQTMHBK=s447-w297-h447-s-no-gm?authuser=0');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">STARTES</span></div></div>
+            <div class="rectangle" style="background-image: url('https://lh3.googleusercontent.com/fife/AGXqzDlFaj35Ux_UaGKtcfByi8R4CvDzSG0krHuIc2o5dtlrWwYjTxTnDJFmdDTZP0vNRQdVNdTDcyAgqFPvcE3QReScTB54kRsFEM3Tx8_OY_EKrNyjBng0cISeI0uT-2-8Mp_mBQj9yowzuZR2SvNGxAe-XmWtqrq9NKmJ2a2XMQfav2EAuHbyJqIL1IvDe2iWD787BATaieDW5461RmvNSs0Wz-VxmdPGpEFmzQoMiTfROvyrMU-fqnQc3Nk7P-svVwVTW3OWQuCMrnthC_QzaJsCpB6DMNKLdlS9wzfUO4GsszTGF2kEyHoRJ8NWELKHOnS6HWLL4wYABj3XeBUU6LXUI_PyIYRmcTjupWXXTVEjyRuKAgQnMJFZlecPJ-R7UGQuJ4XNVD7h1caxqKSjkZdI1bs3480sEw94odpoAFkv87N9LuwiQluuRR-U1wfPatiBU4tNYJvRaYjwqHX9tvgdpQmJ0KcuOmWHjwOY6MHahm4icJa-djBOxyAOnTFgxxNIpNynwGNYh6nZSqL7Cs7hG1OcO61EKCB1FZv_Oiy5Gem4EN7uFP9pYV4V0tnTJWoUyNCPcig1pWbxVbC8G3LA65O3ZuKoz8SK-ev8A5aqqcBHcpDOhJLYWKsmoXbaFFVrEBgfV9WzuAlRFIddqHCblQ7vK7ny3Rnoo9tZUVWuup1Klq0Uu3DpQJxm4pOy9lq9bOVxh2x29s50HBGI6CqLeHJQwo3EEZCGGo_c6WX56nL8RukzR96MZWEROaD38D6Xxx8ImXVAXuX19fvKkPW3-VAkxPur0Vi2sU_gmGZ74zZKLKSMJkw_QzrBXHog14rJSRFKJJLb7yX8SrZ0LUGabOzSD2z4o5ncxLTOORrpk6XnvKLTT8S4SdHRbbW6GtnwcTkWgpLzIdGOEguoiIeALYzBxLW3uWBsxdmLL7TGI_s_08Li5ty5pWEzyBQEW2I-TSdIsBDRaaENjdI7ZoYOz2gAXc5GmvYP_E0hGR0ro-nBJv35UvFmxusSSymysbjcfY0Z-19OnwOHHh3gU_ZL-N8kR0LEnqdUE5hv8nj-taAjouIHXgZ7NtL6Sr0bsn6lk8OYp6vQbVpydBOSo5HXfY_gk6y4kkLHR0Pg6qZjg_Amcc4uqUQYXWS86GrfeWWtOMMLbfhNAf0q7Cp3lEsAhaObIh60ENZAOfC84loISRhsArG7_bjH-sJtNP9oMoqSSfz6S6dRmD8VXQyoTohvALS5ojijrwxmdXr9Wort_JqObLWIFmovvVrioA8DFNOkiQy3DJeIXl32BGc7KwdFA99hCqPlz7hU582KIKpEHcNc6BmgZZ-t49pdqxaUzhCBr96mu0H7vM-4v0_rXKBa_UhqV8Ahk2TbTZrR1aS8WqmDHP2FbtcbWRPZvt_6a-VgaC_V0XRviSjO1QsQUMSplm1vT-9VxU4LzlAnxlZfVkI6Tqp96kZBmWG_VnTnK9sVu3LRRL899RGBO3HiSzmLcd5rVGrWjyLtRZB6w_QZaOKYt0H4CMCZneLevb6539q1iiShTpsbbGek7yFXrfnJWaIBDd9rwcMd77J_MYbCgA23U2j2gij5w7gtlIxrK5L00UlO7mDf6xl563lWIIGkJfH0gfeFWZwbmeYENx7bAjDtZA--9LidW4isVZd5jJFoSfNfN3G5avuOdPi2wdXcFJ5kVNAH2rKbFcLx=s490-w482-h490-s-no-gm?authuser=0');"><div class="zoom-container"><a href="#"></a> <span class="rectangle-name">MAIN COOURSES</span></div></div>
+            <div class="rectangle" style="background-image: url('https://lh3.googleusercontent.com/fife/AGXqzDkZqfoPLyBZ8WGpF_rvyW8PT-i6aPMfCNZ1Ggh6McipN359iyeWeH8O9AjocXZsZ-jehUGSR-EmVh8H-Wimfvc6nHpfbPUTZGmbpHaDQjcJePg1Skbh7o-Fen7Zb85RyScWUZsyPsdeteKNQj3CzgdWdQPcBDiSjp8RlIG3QdOrhRJBdeLKHyo_1Ec67AiqhTntCnRUYJvmpRpNZbkHExuOGP0yfQ76pKZbPWdLgx6KOSsBkFzBhsP0KzeekgITabPMigAuz3bN-Jlokxyshf5wDWM8x6ZUTO2BBiAPI0qAlhP-dnuyjXBnSLnhSPU06KIUd3ot4yJzQxcHrTPoWF-oH7lCEN1uloym2lfPj4eMLCyiNPOo8W4V7NoAPHVOSH6wLoEOQZ7w1EVd5O5NC0rixAY8LTuf0Ti3cIWxWvRuczIDB1qyTR-VtXvjvUAwNnumeQJICKHKoks1lRrxU782ysmOAPlW8uPvUxJXg5-yC1N7c4eUaE9mDg2K_vgpLQsKzMS09BbykXg6k4TOXyIZ3alxWkPoFY-8JeURLCFebfj_TynWvVjmARF29p9H-eE3QtqTN33N3nw4V9qwk4snRR3bBkTQrQ5Oqsp-OQVNsQHdKTdD84lkWTEHzCUJCB1OBXp4_81pJ3GYoaWoUBdgbStHN3H2qdCrZRQmUCmnrmUcKamPdhWTwmrGmx1lyDrib9VizjMxW3Y7frVdDkaTDfrhlW135JgFJ109jimTJdR0Wgr27GuqfcFY0NKRzjRvka1dV2RoZcCzRPya6kxTmSscDJ5wlsYr2tmSdnwF49u2tPvI5fOpy058fuBhqG9bzLSqJTITrwzdMJlivlzuSee6ZJXc78mS_3sW7ZDlDGQqzJkZugcFU4YkFGo6QcJFk_UtoTrHkqJAkIUaQsQ2Y_eHM_WSRhqUdy5DJpcmw6jRRPbequhxcCl2AK8QcOjcMUFBt1o10bSf-mjhFOOGfqaNHxuQifFHsU7PU9UCzf5r30XmuPpQQ--DRENppu4u51sLHq9pwhhpK06yqswtY-9M6gJLzXKY2hgQaH8kodQxWhhwOeQSQzMJAvCTlDmZJDqhfe1AR0M5a_eMCXCHppsMMwdJAClo1U-6p2dEu_tS23Tan8XOmCMnTSPOiMNbXtMufqzwHWZ84rfdQj7QMy1xH5Po6d2wif1tMaquoqDHq8DrzZh6JOB7B0ScLWOOp9bspFyv3c6Agz_9G090qQ3RQY8gD2f2w5EwF7zZex6Zkol1BwlrpD0pGQ4XnvlnQNulVBLOJAU9i1ELk5a3zfVSPMApdR_iX73vAXQZtbbtVlphM6FDuXwU-_UPqbWK8nePT1CdQmx1QWitQdO49ZXUIybjCbsi0gY2S-knghfMWAVrAAKc7aBdt0Dij1EOFu3XRsb734C-wn-589-u5o3oRT9bAY88w8j_F87dhg3YsQesq2kusezjgsfBXXa6brMs-VnJsy-vs7MOZ-PqcuehmGJ8ueYM0_OX8qt3pYGea28UF6Jcx7ZdgkJ40xSL5DwtKvZYCsOfMKr0b3TrYiMZKhrSQYXjbFkRIbOvPT4cRv_IVRFj--ohHart_Sd_8vWW10TeNmzw4HMypeCXQOFpxL-msl-fbpc96YOE6b1dtV-u_p70NM9KScrw15XE_-Tmif05DzQp5XFbbHZkJdn975sQiI8uzAC5=s486-w241-h486-s-no-gm?authuser=0');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">CHEF RECOMMENDED</span></div></div>
+            <div class="rectangle" style="background-image: url('https://lh3.googleusercontent.com/fife/AGXqzDljQ1_pyB9MH7ANTdMWm7Rk4ey1QYSgpnH25CaQxCTjAU86FNqAxHxtkquH6bY7HoFGoszOAkMWEvKtxvg5bjmVTRr4L4_Cnbar-hiSfwDIPQxFx1XpJ8ZHIibvEhq2ECA4Da1Se3JY0o6GcLMDYnSmbDzU7UVbeCUvsbxrATJpVy415FN731SVxXmQ7Ohc1DepzU5TlBVB274QOd_vM9z5z0moHNTy6TFwiuZgEuIpC8i7yhplu5JaCMDJDXLNfp-y2klLzl6ETB651_xpNPBV1zYnLt7dNa4rQNzpy7n1fDRcibkR-Go6wiyxVSeBrn9bM5eNgq4wunAk3qJFQAp-q_ovSZJ7Uqjx3LhiojaYJi1jXCFEQG6qFI5fnuo3e40CsY1hkLIZIs4cWYxvRKYd9hU9zfhGgENOySiTGM6cmZkZJGjBwPeWa_1MJHZ5iVKVXvF3TlDMZyaSSs5J158_vkl0tMAgcjd6TxiCxJvYThYKcqDPXiK9xJlUGXJmkC0ppTXugW7scMM6K3CAUxvAaqY_fW0C9Dl8QErE5qm0RJFAO9Hmu8asY9zNj9NPwKIBEbfD82xnXxaOkqAH6s86LWkbM8HW-kjYjNmG6zpacAQhUZRsi_rEw5k1BHDZ9nb0fB8mRH8G8RswWLnKbZ3Eoq9zCFm56AKp4g_PJrbi8w6IaX2Ld4ansz5d1ojQ5LZF5OsprV_KsYetILc_9vatxEe7vSS-SbTDs1V4YqIBGtMMGbFBRj38QwHxxEGKGvkhvEF_e3XouoGO1mDWzyA2bJrU6UK1flcKVrB77_wvEicQ9INZpQQ_PTKU8hVQkXmCsRJMpSiHGXk1WHplT4rowBqV8QVLNhkLclR6gtEWq598TzkpEhfwrS1jxglhKee_j-z_ObG0sEtx1Kwi9_IjKqjEYl6tO19rSpdWDeJbX-jXfEUoNHVa9KtaiF2lR9YOnIb-iRyaCmvtIkyiqwcMZJD9hJ6mkMKdODPX5nghX3JaXmqryFum9h_423dcQs3LaQ3_l83sInHa65JQB8m6Fd9UsJciApCqqrAtgV2HeF_Fyp-Yrw_6yRZIgR7DQFBCSO9x4xUnov8mal1LZpVYzQG9oBE29cdss6UUOsgcgzrE-gwnMTicQuDHPptCnZPowcpTvNWltU_5tRZetbtuf_ulveNuqaCDP9vUoZYYfSals1ogbzLIyVBZmnuzVosCliHkkQ6JbQwfUJDC9lJ-SYOOw09ZymvL2PFvAdimfe-Ig8XeW99ktt8aHh8YfgdgL-uYZa1ehwHUAEkhXAUj8ADSYVxSwTY1gjrRhoUd0mwAp1XAzIIbtQS7ihDmnmVWREqP2QrpLJNDl4GqBkzlxRLreG-fhWGyts1EDGj9av8geN-oU1hkWyAcE_egz3EXuD9evRe5ngJzYDM7m_mG8dPVd2DEZO10KG1W29MUTUYH_YR3fPsEGdu_ezPppAQ_VJllAOfsL6X_u1iAfWh6SAbdtarfJqeY8NcI_pBzF0j6tc_YwHJ5sWCyXi31DzNbKmeJqt2BXKR6ycaAXs8_gMmkMmAJgxxDcRpINCaapY7AjO3mfYjRckqZRUefZ9g-XUBrNPkVJ0tF1E8DaqBFQQoXTfP_2t1qg5zuS6u_0WXi770hesIi1GFz_rUD1GELDhydsG8_1R7YaKZDgPB8vkYAFLtXmuG5Uobu=s486-w477-h486-s-no-gm?authuser=0');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">DRINKS MENU</span></div></div>
         </div>
         
-        <section class="section-background">
-            <div class="title-container">
-                <hr class="line" />
-                <h2 class="second-title">ORIGINS AND INSPIRATIONS</h2>
-                <hr class="line" />
-            </div>
-            <div class="content-container">
-            <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <!-- Asegúrate de que cada imagen esté dentro de un div con clase "swiper-slide" -->
-                <div class="swiper-slide">
-                    <img src="https://lh3.googleusercontent.com/pw/ABLVV847llyx4hoK74zwVxH3od7J-RqAeN0Jy3XLKFYu9ZxIcn1WPtjVUD7ROJFeXP9rP93HAuasrklfzex_JMBNbTZGqckyGjv9ZVmThPS-gYmwSNqze0M93KWG4Kjpm4_h95LixfYahKCczu2LafZAnGTWPvx7ypjT-9Z8gp5ie7GDpirm1oySRW0EdSFT97QhizbJ1EU3spSdD8N0J_ljIztxxazQqGgR2kI7afhaGw5ltsKjlI297LpVa3IQnyGbulXO-a0n68Ca6N_73mYaaZP80MRl0EuAakxG0zoyhECw27oGAe8d-FLbJsCPLoZpbp0GPdq95CCJmAJMqbv7Xks-t4A_WurR6z_vghtHhqSrR0RpyErUhwyqDX8EH8cXMDRLDfYyFlPBIPrtgC9mvENWAxfdUazC7ZGLxN0hXs7H8R_vy3DpGF2ynPwDRSKPJ-39bUhZxJKj00a0ZKXN79qz3GEjW_wgASWQBdwMX8Rn2KuqkctjrF-An40qN7jMfxor6mS7X5-7lBW0cbmOLMhw9ywGb_2QJ-8nM-MkfWO5ZWMWIlVXX9M244rMYfRDHiZoxH4bMo3SAqI9n0jPkyZsWcO1vJKGi8GqZ1HlaMU8HhOh__IGS0p9FmZ5OYP8OkospMdzLVhY2k9Ai0cxH3NpuBtoprKbkWC0Sdy_sM-NgeLtnP6JIRc9IinNhdpX_X4ATyzZRkJGRK2nZ6fGi5Ku5VJTCtUo7ewonfA4tWCHtuenguZadoMQOcihtYjqGy7XG7II7LpaGrAOqzOHnLDhRLjU-38qqezETveZ2ziwX2DKpBeB0rnwMeAZGwPd4FSmJQlO_HeEhTUn9pI4rFNjU-lceSJVR98AowERkEeoNlkp3sp1WGyCgnJVWfakXxXxL1z2sbLaXdS7uKuCTxWjSQ=w492-h486-s-no-gm?authuser=0" alt="Descripción de la imagen 1">
-                </div>
-                <div class="swiper-slide">
-                    <img src="https://lh3.googleusercontent.com/pw/ABLVV85e2cANV0L91Las5tJspAjvD5Z7-zmP9lsdMWyAisB0u-RGmGY5Ur9_igjowDFH_uOLaiFdhptZyMSlrTmAu4vgMSMKF1md5zv1KNDCSyyeIe6UMyXiMTEuwYioSKYMfdhkKR17AyqInhgGHJPbJZgSZFPj0rLDZLZ7xOqEq4yd-xkLQR1dub2cYrMCJDHPj-COB6y6dhMCuh8gKWaZ5HsjqWJoaGdjoBf4tX254Mper2qOHTD-cfh1GRgil3YuJjHVEfyJpBOG1Xx8i0qV2ClYh2YIq7WRQP1vyKUMtrLxp-nJllTFxGGFPXNRmSyC9oD1kUfbUWtP61CQkpzo7kbXwy5R8FteGtVCOjo5rV52buL8dNXimQnJAwd1TrZ5k-iE58KXo5hGhhKmiPPSvv6zANEcIPNO4uZTptvfDZwjbVeJN_Q8XgDqxMGsR825_IooHgM8mAa5ZwXOV9UMn53XYE_wkgGBwJq59hAjRCe5_3_ixosM1B9nR1FKGAeHuxaz3w7nS2HkZhdj4TMqZ-bY6XsUHJtAeNULGgfKFe5evmo8a0aDkwF7MO1pqOJ5-UkZqvTIVkyQ_h5Ua2BU0rypG-p2JQxyfgqfAJi0k4THK4iSsoGmpR8_RIAZRvBvp203vNBRwO56FAb03maxt8q-a0K3L5GDq2UlHoHpDlUKyFcypy0CkFpnccp5eqmtqsab8U6xD9MA3gS-RrXE2ARpp0futrjSn4iRqht8ZfHjSMob_YPZ2RRdaJz638yWfJQQtC6XFVZiiBBza_Jvy8kHbmQft1EnvBmaZjWj4-vSvq9QcPxp1IEt0sIRnZp9GtKiVRa5Wu1mre9a7UWkksxeULcA3uqtdgWC8SGlDGNy3L3JbQBhs1c2agxxgM7R9JbYNa6BcCTIt89AD5QJkzQt3w=w315-h486-s-no-gm?authuser=0" alt="Descripción de la imagen 2">
-                </div>
-                <div class="swiper-slide">
-                    <img src="https://lh3.googleusercontent.com/pw/ABLVV87LG_k8x9TK3jCV2Cs8VW4si-OCaWfZ8SgZoZKbY4h2vp6q56wFomu_Q73ipv2Vj1TIWyrV51f0usJ3BoDy_MHwI4qiDOORD2DNuZ8aGl4Mt_46ZSFZRzF_GjCxELiAk6w0WUuKeCYGeJoAMe2zBktJMJewPK37foXllECJmKtt4R4zvVgAnqLR91a2p6T72SJrXFxe52hOGgfAJluloU5fuX0NTvQ2J0pwuZGjELaoPO7Qm15_-5Gle9n-ptA9jMVUZ10qv2gGygcf8kzUljsKiDqhkaqE_NdxjJE1h6zWSYHiCVjX-oIUR4bJLXmabAqbzkKuZNScx6NCsw6iM9lOFcVMmLB-UIPZMtdiYuHU-mF_qEh_Tqtz-HHI2Vlryx8_hH-WQeRur7TFV849wjw0-gHRNg6HDmI_W2Mfus_FrWQlCUD2y3K72Fd5v4PSHlMR0xgrcG-M2IHxrXxKlfsX6nQU50rPxFxbqLvHYCCTGnV0HYGVWJtI5pkKdm1BnOBUxQnlCrIoOExIgGJmMCS4YZp-RW1k4AlOKEYMTZrsruVA-NXf1s2a9ksdoQDAmPqm0NPWAtI6nnKCABpFtWEwytJW1c4cNCePVF4gdxdo3rJ7B182ZhZgvQA7hfDgW2gZvkpyON8XH5TRepiv-_JdCtRtiSmCIC8O8rb95Zf1A51huACgWszNZ1bU6SGzl-HfVz0kHYnijizUK5bfGNdg8WJJxZBAJIrVIcGggqvoy_4cDZU8glLCC7fLiFXVAC-s4emATQrxFySr5YIBEOp27QB3mlsXTgkmhNzLuMlBXuqF9W1fJd3xuynJJ-iNzuFscEmHK4Sh1DbVyGjIwoRSubuDGl3V9__FseqAX2TaSK3ufvkMRbeg7AfhWR2CZlrkaI1Y9pozCEy8hSOIpeDdkg=w297-h447-s-no-gm?authuser=0" alt="Descripción de la imagen 2">
-                </div>
-                <!-- Repite para cada imagen que quieras en el carrusel -->
-            </div>
-            <!-- Flechas de navegación -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-                <div class="description">
-                    <p>Estamos orgullosos de brindar un servicio excepcional, garantizando que todas sus necesidades sean satisfechas con una sonrisa. Nuestro dedicado personal está aquí para guiarlo a través de nuestro menú, recomendarle combinaciones y hacer que su experiencia gastronómica sea realmente excepcional.</p>
-                </div>
-            </div>
-        </section>
+    <div class="contenedor-origins">
+        <h2 class="titulo-origins">ORIGINS AND INSPIRATIONS</h2>
+        <div id="container-origins"></div>
+    </div>
     
     `;
     document.body.appendChild(section);
@@ -121,13 +95,55 @@ document.addEventListener('DOMContentLoaded', function() {
     }, false);
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    var mySwiper = new Swiper('.swiper-container', {
-        loop: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
+document.addEventListener('DOMContentLoaded', function () {
+    const container = document.getElementById('container-origins');
+    container.innerHTML = `
+    <div class="container-origins">
+    <div id="carouselContainer">
+        <button id="prev">&lt;</button>
+        <div id="imageWrapper">
+            <img class="image" src="https://via.placeholder.com/350x250?text=Imagen+1" alt="Imagen 1">
+            <img class="image" src="https://via.placeholder.com/350x250?text=Imagen+2" alt="Imagen 2">
+            <img class="image" src="https://via.placeholder.com/400x300?text=Imagen+3" alt="Imagen 3">
+            <img class="image" src="https://via.placeholder.com/450x350?text=Imagen+4" alt="Imagen 4">
+            <img class="image" src="https://via.placeholder.com/500x400?text=Imagen+5" alt="Imagen 5">
+        </div>
+        <button id="next">&gt;</button>
+    </div>
+    <div id="content">
+        <p>We take pride in providing exceptional service, ensuring your every need is met with a smile. Our dedicated staff is here to guide you through our menu, recommend pairings, and make your dining experience truly exceptional.</p>
+        <button>VIEW GALLERY</button>
+    </div>
+</div>
+    `;
+    
+let currentIndex = 0;
+const imageWrapper = document.getElementById('imageWrapper');
+const images = document.querySelectorAll('.image');
+const totalImages = images.length;
+
+function updateCarousel() {
+    // Ajuste para el desplazamiento más corto: Cambiar el valor de -100 a un valor menor
+    const offset = currentIndex * -(100 / totalImages); // Hace que el desplazamiento sea proporcional al número de imágenes
+    imageWrapper.style.transform = `translateX(${offset}%)`;
+}
+
+document.getElementById('prev').addEventListener('click', () => {
+    currentIndex--;
+    if (currentIndex < 0) {
+        currentIndex = totalImages - 1; // Hace el carrusel circular hacia la izquierda
+    }
+    updateCarousel();
 });
+
+document.getElementById('next').addEventListener('click', () => {
+    currentIndex++;
+    if (currentIndex >= totalImages) {
+        currentIndex = 0; // Hace el carrusel circular hacia la derecha
+    }
+    updateCarousel();
+});
+
+});
+
 

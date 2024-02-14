@@ -7,7 +7,6 @@ body {
 }
 
 .contact-bar {
-    
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -69,13 +68,14 @@ body {
 }
 
 .reservation {
-    background-color: #3B5998; /* Azul oscuro, similar al de la mascota de Seattle */
+    background-color: #3d5b9b; /* Azul oscuro, similar al de la mascota de Seattle */
     padding: 10px 15px;
     border-radius: 5px;
 }
 
 .reservation:hover {
-    background-color: #333;
+    background-color: #7fbdce;
+    
 }
 
 /* Estilos para ocultar la barra de menú y la barra de contacto */
@@ -90,7 +90,7 @@ header.hide {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #6f94af; /* O el color que prefieras */
+    background-color: #07252D; /* O el color que prefieras */
     z-index: 100; /
     }
 
@@ -104,11 +104,11 @@ header.hide {
 
 /* Ajusta el color de los enlaces para que contraste con el fondo blanco */
 .main-nav.fixed-white .menu-link, .main-nav.fixed-white .reservation {
-    color: #000000; /* Cambia el color del texto */
+    color: #ffffff; /* Cambia el color del texto */
 }
 
 /* Asegura que el logo y los íconos de redes sociales sean visibles en el fondo blanco */
 .main-nav.fixed-white .logo, .main-nav.fixed-white .social-icon i {
-    color: #000000; /* Cambia el color para asegurar la visibilidad */
+    color: #ffffff; /* Cambia el color para asegurar la visibilidad */
 }
 

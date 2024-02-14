@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.addEventListener('scroll', function() {
         const mainNav = document.querySelector('.main-nav');
-        if (window.pageYOffset > 50) {
+        if (window.pageYOffset > 80) {
             mainNav.classList.add('fixed-white');
         } else {
             mainNav.classList.remove('fixed-white');
