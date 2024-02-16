@@ -5,34 +5,35 @@
     width: 80%;
     margin: auto;
     transition: opacity 0.5s ease-in-out;
+    padding: 9rem;
 }
 
-.carousel-arrow {
+.carousel-arrowop {
     cursor: pointer;
     font-size: 24px;
 }
 
-.quote, .author, .stars {
+.quoteop, .authorop, .starsop {
     text-align: center;
 }
 
-.quote {
+.quoteop {
     font-size: 80px;
     max-height: 8vh;
 }
 
-.title {
+.titleop {
     font-size: 30px;
     text-decoration: underline;
     text-align: center;
     padding: 20px;
 }
 
-.paragraph {
+.paragraphop {
     font-size: 20px;
 }
 
-.stars {
+.starsop {
     color: gold;
 }
 
@@ -40,11 +41,11 @@
     display: none;
 }
 
-.carousel-content {
+.carouselContainerop {
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
 
-.carousel-content.active {
+.carouselContainerop.active {
     opacity: 1;
 }

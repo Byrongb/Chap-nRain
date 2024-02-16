@@ -53,7 +53,7 @@
 }
 
 #carouselContainer {
-    flex: 70%; /* 70% del contenedor para el carrusel */
+    flex: 70%; /* 70% del contenedor para el carrusel cambio*/
     display: flex;
     position: relative;
     overflow: hidden;
@@ -68,7 +68,8 @@
 .image {
     min-width: 20%;
     flex: 0 0 auto;
-    margin-right: 10px;
+    margin-right: 20px;
+    max-height: 25rem;
 }
 
 #prev, #next {

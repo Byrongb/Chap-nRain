@@ -12,17 +12,19 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="content">
         <h2 class="title">VIEW OUR MENUS</h2>
         <div class="rectangles">
-            <div class="rectangle" style="background-image: url('');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">STARTES</span></div></div>
-            <div class="rectangle" style="background-image: url('');"><div class="zoom-container"><a href="#"></a> <span class="rectangle-name">MAIN COOURSES</span></div></div>
-            <div class="rectangle" style="background-image: url('');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">CHEF RECOMMENDED</span></div></div>
-            <div class="rectangle" style="background-image: url('');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">DRINKS MENU</span></div></div>
+            <div class="rectangle" style="background-image: url('https://acortar.link/dcLWNj');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">STARTES</span></div></div>
+            <div class="rectangle" style="background-image: url('https://acortar.link/Clh9By');"><div class="zoom-container"><a href="#"></a> <span class="rectangle-name">MAIN COOURSES</span></div></div>
+            <div class="rectangle" style="background-image: url('https://acortar.link/xG29XR');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">CHEF RECOMMENDED</span></div></div>
+            <div class="rectangle" style="background-image: url('https://acortar.link/GRxkO2');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">DRINKS MENU</span></div></div>
         </div>
         
     <div class="contenedor-origins">
         <h2 class="titulo-origins">ORIGINS AND INSPIRATIONS</h2>
         <div id="container-origins"></div>
     </div>
-    
+    <div id="carousel-containerop"></div>
+
+
     `;
 
     const observer = new IntersectionObserver((entries) => {
@@ -112,9 +114,9 @@ document.addEventListener('DOMContentLoaded', function () {
     <div id="carouselContainer">
         <button id="prev">&lt;</button>
         <div id="imageWrapper">
-            <img class="image" src="https://via.placeholder.com/350x250?text=Imagen+1" alt="Imagen 1">
-            <img class="image" src="https://via.placeholder.com/350x250?text=Imagen+2" alt="Imagen 2">
-            <img class="image" src="https://via.placeholder.com/400x300?text=Imagen+3" alt="Imagen 3">
+            <img class="image" src="https://acortar.link/1rhKTF" alt="Imagen 1">
+            <img class="image" src="https://acortar.link/Clh9By" alt="Imagen 2">
+            <img class="image" src="https://acortar.link/4sQs1W" alt="Imagen 3">
             <img class="image" src="https://via.placeholder.com/450x350?text=Imagen+4" alt="Imagen 4">
             <img class="image" src="https://via.placeholder.com/500x400?text=Imagen+5" alt="Imagen 5">
         </div>
@@ -133,7 +135,7 @@ const images = document.querySelectorAll('.image');
 const totalImages = images.length;
 
 function updateCarousel() {
-    // Ajuste para el desplazamiento más corto: Cambiar el valor de -100 a un valor menor
+    // Ajuste para el desplazamiento más corto: Cambiar el valor de -100 a un valor menor..
     const offset = currentIndex * -(100 / totalImages); // Hace que el desplazamiento sea proporcional al número de imágenes
     imageWrapper.style.transform = `translateX(${offset}%)`;
 }
@@ -157,3 +159,61 @@ document.getElementById('next').addEventListener('click', () => {
 });
 
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const carouselContainerop = document.getElementById('carousel-containerop');
+    const opinions = [
+        {
+            quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            title: "Opinión 1",
+            paragraph: "Pellentesque habitant morbi tristique senectus et netus.",
+            stars: 5,
+            author: "Autor 1"
+        },
+        {
+            quote: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            title: "Opinión 2",
+            paragraph: "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            stars: 3,
+            author: "Autor 2"
+        },
+        {
+            quote: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+            title: "Opinión 3",
+            paragraph: "Excepteur sint occaecat cupidatat non proident.",
+            stars: 4,
+            author: "Autor 3"
+        }
+    ];
+    let currentIndex = 0;
+
+    function renderOpinion(index) {
+        const opinion = opinions[index];
+        const stars = '★'.repeat(opinion.stars) + '☆'.repeat(5 - opinion.stars);
+        // Añade transición suave
+        carouselContainerop.style.opacity = 0; // Inicia la transición de desvanecimiento
+        setTimeout(() => {
+            carouselContainerop.innerHTML = `
+                <div class="carousel-arrowop" onclick="move(-1)">&#9664;</div>
+                <div>
+                    <div class="quoteop">“</div>
+                    <div class="titleop">${opinion.title}</div>
+                    <div class="paragraphop">${opinion.paragraph}</div>
+                    <div class="starsop">${stars}</div>
+                    <div class="authorop">${opinion.author}</div>
+                </div>
+                <div class="carousel-arrowop" onclick="move(1)">&#9654;</div>
+            `;
+            carouselContainerop.style.opacity = 1; // Finaliza la transición de desvanecimiento
+        }, 300); // Ajusta este tiempo según sea necesario
+    }
+
+    window.move = function(direction) {
+        currentIndex += direction;
+        if (currentIndex < 0) currentIndex = opinions.length - 1;
+        else if (currentIndex >= opinions.length) currentIndex = 0;
+        renderOpinion(currentIndex);
+    };
+
+    renderOpinion(currentIndex);
+});
