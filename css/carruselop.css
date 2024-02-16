@@ -1,0 +1,50 @@
+#carousel-containerop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-arrow {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.quote, .author, .stars {
+    text-align: center;
+}
+
+.quote {
+    font-size: 80px;
+    max-height: 8vh;
+}
+
+.title {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.stars {
+    color: gold;
+}
+
+.hidden {
+    display: none;
+}
+
+.carousel-content {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-content.active {
+    opacity: 1;
+}
