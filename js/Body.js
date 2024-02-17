@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
     }, false);
     
-    // Crear el contenedor para el título y los rectángulos
+    // Crear el contenedor para el título y los rectángulos..
     const section = document.createElement('section');
     section.innerHTML = `
     <div class="content">
@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <h2 class="titulo-origins">ORIGINS AND INSPIRATIONS</h2>
         <div id="container-origins"></div>
     </div>
+
     <div id="carousel-containerop"></div>
-
-
+    <div id="footer-container"></div>
     `;
 
     const observer = new IntersectionObserver((entries) => {
@@ -127,6 +127,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <button>VIEW GALLERY</button>
     </div>
 </div>
+
     `;
     
 let currentIndex = 0;
@@ -217,3 +218,47 @@ document.addEventListener('DOMContentLoaded', function() {
 
     renderOpinion(currentIndex);
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+const footer = document.getElementById('footer-container');
+    footer.innerHTML =  `
+    <div class="footer">
+    <div class="footer-column">
+    <div class="logoF">Chapín<br><span>Rain</span></div>
+      <p>Comprometidos con la excelencia.</p>
+      <div class="social-icons">
+        <img src="icon-facebook.png">
+        <img src="icon-twitter.png">
+        <img src="icon-instagram.png">
+      </div>
+    </div>
+    <div class="footer-column">
+      <h3>DESCRIPCION GENERAL</h3>
+      <a href="#" class="general-link">Hogar</a>
+      <a href="#" class="general-link">Menus de comida</a>
+      <a href="#" class="general-link">Entrega en línea</a>
+      <a href="#" class="general-link">Sobre Nosotros</a>
+    </div>
+    <div class="footer-column">
+      <h3>RECURSOS</h3>
+      <a href="#" class="resource-link">Centro de ayuda</a>
+      <a href="#" class="resource-link">Condiciones de uso</a>
+      <a href="#" class="resource-link">Politica de privacidad</a>
+    </div>
+    <div class="footer-column">
+      <h3 class="footerFont" >DATOS DE CONTACTO</h3>
+      <p><img src="icon-phone.png"> (206) 123-4567</p>
+      <p><img src="icon-email.png"> email@example.com</p>
+      <p><img src="icon-url.png"> www.example.com</p>
+    </div>
+    <div class="footer-column">
+      <h3>UBICACION</h3>
+      <span class="address-icon"><i class="fas fa-map-marker-alt"></i> 1234 Pike St, Seattle, WA 98101</span>
+    </div>
+  </div>
+  `;
+
+});
+
+
