@@ -12,12 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="content">
         <h2 class="title">VIEW OUR MENUS</h2>
         <div class="rectangles">
-            <div class="rectangle" style="background-image: url('https://acortar.link/dcLWNj');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">STARTES</span></div></div>
-            <div class="rectangle" style="background-image: url('https://acortar.link/Clh9By');"><div class="zoom-container"><a href="#"></a> <span class="rectangle-name">MAIN COOURSES</span></div></div>
-            <div class="rectangle" style="background-image: url('https://acortar.link/xG29XR');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">CHEF RECOMMENDED</span></div></div>
-            <div class="rectangle" style="background-image: url('https://acortar.link/GRxkO2');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">DRINKS MENU</span></div></div>
+            <div class="rectangle" style="background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428344866_1143100170014973_3213477673963442702_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=lE1OIgx8qcAAX962cJC&_nc_ht=scontent-sea1-1.xx&oh=00_AfAFSC6Z3AoL5-whl_P1u_YDwnDfrkJqknY8DlBv9kzXGw&oe=65D5E818');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">STARTES</span></div></div>
+            <div class="rectangle" style="background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428365602_1143100366681620_9055433000204666102_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_ohc=apEBWmftkWMAX_XzpcP&_nc_ht=scontent-sea1-1.xx&oh=00_AfBWoevXpo2NWEKVF5Iyds3R4rbwl_gj2PU_UUH9pRcwyw&oe=65D577E1');"><div class="zoom-container"><a href="#"></a> <span class="rectangle-name">MAIN COOURSES</span></div></div>
+            <div class="rectangle" style="background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428291931_1143100326681624_4889427973443097468_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=qf83nk0xIxIAX-NSUeF&_nc_ht=scontent-sea1-1.xx&oh=00_AfB1AY2hc0Heu1h-M9FYSDjZ4WuJ5j2RFGH5qi-tpura_A&oe=65D70ADE');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">CHEF RECOMMENDED</span></div></div>
+            <div class="rectangle" style="background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428341410_1143100280014962_3973603968050105591_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=J8RuviqeJpsAX-tedR5&_nc_ht=scontent-sea1-1.xx&oh=00_AfCKxcQxPFVj1VQUhiSdoqOJYnKtl8fWuheXa7CHRDguAw&oe=65D584BC');"><div class="zoom-container"><a href="#"></a><span class="rectangle-name">DRINKS MENU</span></div></div>
         </div>
-        
     <div class="contenedor-origins">
         <h2 class="titulo-origins">ORIGINS AND INSPIRATIONS</h2>
         <div id="container-origins"></div>
@@ -114,11 +113,11 @@ document.addEventListener('DOMContentLoaded', function () {
     <div id="carouselContainer">
         <button id="prev">&lt;</button>
         <div id="imageWrapper">
-            <img class="image" src="https://acortar.link/1rhKTF" alt="Imagen 1">
-            <img class="image" src="https://acortar.link/Clh9By" alt="Imagen 2">
-            <img class="image" src="https://acortar.link/4sQs1W" alt="Imagen 3">
-            <img class="image" src="https://via.placeholder.com/450x350?text=Imagen+4" alt="Imagen 4">
-            <img class="image" src="https://via.placeholder.com/500x400?text=Imagen+5" alt="Imagen 5">
+            <img class="image" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428309331_1143100250014965_2686216553151010760_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=sCXNUjrLq7oAX-OH2_S&_nc_ht=scontent-sea1-1.xx&oh=00_AfCzvPge2xI3hvfyvJMBv326mJqkL8RzXWrjJ3HU9u3bgw&oe=65D67AD9" alt="Imagen 1">
+            <img class="image" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428321388_1143100353348288_6859996721136507531_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=j66BRkCir3wAX9IIXUQ&_nc_ht=scontent-sea1-1.xx&oh=00_AfAapQM_Oe6KOR17QBeHmR7HhTN0uPVnZoYFGJyICg1wwg&oe=65D63013" alt="Imagen 2">
+            <img class="image" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428365602_1143100366681620_9055433000204666102_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_ohc=apEBWmftkWMAX_XzpcP&_nc_ht=scontent-sea1-1.xx&oh=00_AfBWoevXpo2NWEKVF5Iyds3R4rbwl_gj2PU_UUH9pRcwyw&oe=65D577E1" alt="Imagen 2">
+            <img class="image" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428344866_1143100170014973_3213477673963442702_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=lE1OIgx8qcAAX962cJC&_nc_ht=scontent-sea1-1.xx&oh=00_AfAFSC6Z3AoL5-whl_P1u_YDwnDfrkJqknY8DlBv9kzXGw&oe=65D5E818" alt="Imagen 4">
+            <img class="image" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428341410_1143100280014962_3973603968050105591_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=J8RuviqeJpsAX-tedR5&_nc_ht=scontent-sea1-1.xx&oh=00_AfCKxcQxPFVj1VQUhiSdoqOJYnKtl8fWuheXa7CHRDguAw&oe=65D584BC" alt="Imagen 5">
         </div>
         <button id="next">&gt;</button>
     </div>
@@ -226,7 +225,7 @@ const footer = document.getElementById('footer-container');
     <div class="footer">
     <div class="footer-column">
     <div class="logoF">Chapín<br><span>Rain</span></div>
-      <p>Comprometidos con la excelencia.</p>
+      <p>Committed to excellence.</p>
       <div class="social-icons">
         <img src="icon-facebook.png">
         <img src="icon-twitter.png">
@@ -235,25 +234,25 @@ const footer = document.getElementById('footer-container');
     </div>
     <div class="footer-column">
       <h3>DESCRIPCION GENERAL</h3>
-      <a href="#" class="general-link">Hogar</a>
-      <a href="#" class="general-link">Menus de comida</a>
-      <a href="#" class="general-link">Entrega en línea</a>
-      <a href="#" class="general-link">Sobre Nosotros</a>
+      <a href="#" class="general-link">Home</a>
+      <a href="#" class="general-link">Menus</a>
+      <a href="#" class="general-link">Online delivery</a>
+      <a href="#" class="general-link">About us</a>
     </div>
     <div class="footer-column">
       <h3>RECURSOS</h3>
-      <a href="#" class="resource-link">Centro de ayuda</a>
-      <a href="#" class="resource-link">Condiciones de uso</a>
-      <a href="#" class="resource-link">Politica de privacidad</a>
+      <a href="#" class="resource-link">Help Center</a>
+      <a href="#" class="resource-link">Terms of use</a>
+      <a href="#" class="resource-link">Privacy Policy</a>
     </div>
     <div class="footer-column">
-      <h3 class="footerFont" >DATOS DE CONTACTO</h3>
-      <p><img src="icon-phone.png"> (206) 123-4567</p>
-      <p><img src="icon-email.png"> email@example.com</p>
-      <p><img src="icon-url.png"> www.example.com</p>
+      <h3 class="footerFont">CONTACT INFORMATION</h3>
+      <p><img src="icon-phone.png">(206) 123-4567</p>
+      <p><img src="icon-email.png">email@example.com</p>
+      <p><img src="icon-url.png">www.example.com</p>
     </div>
     <div class="footer-column">
-      <h3>UBICACION</h3>
+      <h3>LOCATION</h3>
       <span class="address-icon"><i class="fas fa-map-marker-alt"></i> 1234 Pike St, Seattle, WA 98101</span>
     </div>
   </div>

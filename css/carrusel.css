@@ -8,7 +8,7 @@
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     background-color: #07252D;
-
+    box-shadow: 0px 0px 5px #007bff;
 }
 
 .titulo-origins{
@@ -88,7 +88,7 @@
 #next { right: 0; }
 
 #content {
-    flex: 30%; /* 30% del contenedor para el contenido */
+    flex: 30%; /* 30% del contenedor para el contenido. */
     padding-left: 0;
     padding: 55px;
     color: white; 
