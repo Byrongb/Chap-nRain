@@ -16,6 +16,46 @@ body {
     padding-right: 15rem; /* Espacio a la derecha manipulable */
 }
 
+.contact-bar {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparencia aplicada */
+    transition: top 1s ease; /* Transición suave para la aparición y desaparición */
+}
+
+.main-nav {
+    z-index: 1000; /* Asegura que la barra de menú esté encima de otros elementos */
+    position: relative; 
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
+
+.content {
+    transition: opacity 0.01s ease-in-out;
+}
+
+
+.reservation {
+    border: 3px solid white;
+    background-color: transparent;
+}
+
+.reservation.scrolled {
+    background-color: #3B5998; /* Azul oscuro al hacer scroll hacia abajo */
+}
+
+header.hide {
+    top: -100px; /* Ajusta según la altura de tu barra de contacto */
+}
+
+/* Estilos para el título */
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem; /* Tamaño mediano-grande */
+    text-align: center;
+    margin: 2rem 0; /* Espacio antes y después del título */
+    margin-top: 77vh;
+}
+
+
 .address-icon, .phone-icon {
     display: inline-block;
     margin-right: 20px; /* Espacio a la derecha de la dirección y el teléfono */
@@ -148,4 +188,16 @@ header.hide {
 /* Mostrar el dropdown cuando se hace hover sobre el enlace Menús */
 .menu-link:hover + .dropdown-content, .dropdown-content:hover {
     display: block;
+}
+
+.btn-menu{
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block; /* O `flex`, `grid`, etc., según tu layout */
 }
