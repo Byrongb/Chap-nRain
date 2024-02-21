@@ -14,8 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
         <nav class="main-nav">
-            <div class="logo">Chapín<br><span>Rain</span></div>
+            <div class="logo"><a href="index.html" style="color: inherit; text-decoration: none;">Chapín<br><span>Rain</span></a></div>
             <div class="menu-items">
+                <a id="home" href="#" class="menu-link">Home</a>
+                
                 <a href="#" class="menu-link">Menús</a>
                 <div class="dropdown-content">
                     <img id="menu1" class="btn-menu" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428462783_1144279546563702_3026744105707271083_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=E7v8OUED47EAX9ajWXS&_nc_ht=scontent-sea1-1.xx&oh=00_AfA3xEVtb5IjX1hLAARRh3v-GvIEPKOz-tE_Ee2xvRjuOQ&oe=65D847A2" alt="Imagen 1">
@@ -23,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <img id="menu3" class="btn-menu" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428464339_1144279566563700_1999147457296360238_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=ytUCNLDsSTsAX9g_cbS&_nc_ht=scontent-sea1-1.xx&oh=00_AfCZAaEEoiSnB3jScx8o7PuzFHsWBqGzjXB_5xwXmUNoxw&oe=65D8A2B8" alt="Imagen 3">
                     <img id="menu4" class="btn-menu" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428491929_1144279653230358_3352286630633181731_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=Av9BoQu9ew4AX_dTJGS&_nc_ht=scontent-sea1-1.xx&oh=00_AfBFPdfXmT7RmQ_N7p3nEm4Yy4HLrswWeOE4QJTpbUEOVg&oe=65D971F4" alt="Imagen 4">
                 </div>
+
                 <a id="about" href="#" class="menu-link">About Us</a>
                 <a id="deliv" href="#" class="menu-link">Delivery</a>
                 <a id="reser" href="#" class="reservation">RESERVATION</a>
@@ -36,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('menu3').addEventListener('click', function() { window.location.href = 'chef.html'; });
     document.getElementById('menu4').addEventListener('click', function() { window.location.href = 'drinks.html'; });
     
+    document.getElementById('home').addEventListener('click', function() { window.location.href = 'index.html'; });
     document.getElementById('about').addEventListener('click', function() { window.location.href = 'about.html'; });
     document.getElementById('deliv').addEventListener('click', function() { window.location.href = 'delivery.html'; });
     document.getElementById('reser').addEventListener('click', function() { window.location.href = 'reservation.html'; });

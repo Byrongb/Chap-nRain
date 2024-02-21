@@ -127,12 +127,14 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
     <div id="content">
         <p>We take pride in providing exceptional service, ensuring your every need is met with a smile. Our dedicated staff is here to guide you through our menu, recommend pairings, and make your dining experience truly exceptional.</p>
-        <button>VIEW GALLERY</button>
+        <button id="btn-gallery">VIEW GALLERY</button>
     </div>
 </div>
 
     `;
-    
+
+document.getElementById('btn-gallery').addEventListener('click', function() { window.location.href = 'gallery.html'; });
+
 let currentIndex = 0;
 const imageWrapper = document.getElementById('imageWrapper');
 const images = document.querySelectorAll('.image');
@@ -238,10 +240,10 @@ const footer = document.getElementById('footer-container');
     </div>
     <div class="footer-column">
       <h3>DESCRIPCION GENERAL</h3>
-      <a href="#" class="general-link">Home</a>
-      <a href="#" class="general-link">Menus</a>
-      <a href="#" class="general-link">Online delivery</a>
-      <a href="#" class="general-link">About us</a>
+      <a id="home" href="#" class="general-link">Home</a>
+      <a id="menu" href="#" class="general-link">Menus</a>
+      <a id="deliv" href="#"  class="general-link">Online delivery</a>
+      <a id="about" href="#" class="general-link">About us</a>
     </div>
     <div class="footer-column">
       <h3>RECURSOS</h3>
@@ -261,7 +263,10 @@ const footer = document.getElementById('footer-container');
     </div>
   </div>
   `;
-
+  document.getElementById('home').addEventListener('click', function() { window.location.href = 'index.html'; });
+  document.getElementById('about').addEventListener('click', function() { window.location.href = 'about.html'; });
+  document.getElementById('deliv').addEventListener('click', function() { window.location.href = 'delivery.html'; });
+  
 });
 
 

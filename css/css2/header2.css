@@ -7,7 +7,7 @@ body {
 }
 
 .contact-bar {
-    background-color: white;
+    background-color: #3B5998;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -86,7 +86,7 @@ header.hide {
     align-items: center;
     padding: 0 20px;
     position: relative; 
-    background-color: transparent;
+    background-color: #07252D;
     transition: background-color 0.5s ease;
 }
 
@@ -98,7 +98,7 @@ header.hide {
 }
 
 .main-nav .logo span {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .menu-items a {
@@ -152,6 +152,27 @@ header.hide {
     color: #ffffff; /* Cambia el color para asegurar la visibilidad */
 }
 
+.menu-link {
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    display: inline-block; /* Permite dimensionar y posicionar el enlace */
+    overflow: hidden; /* Asegura que el pseudo-elemento no se muestre fuera de los límites */
+}
+
+.menu-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%; /* Inicia sin mostrarse */
+    height: 2px; /* Altura de la barra de carga */
+    background-color: #ffffff; /* Color de la barra de carga */
+    transition: width 0.4s ease; /* Transición suave del ancho */
+}
+
+.menu-link:hover::after {
+    width: 100%; /* Extiende la barra de carga a todo el ancho al hacer hover */
+}
+
 
 .dropdown-content {
     display: none;
@@ -189,28 +210,6 @@ header.hide {
 .menu-link:hover + .dropdown-content, .dropdown-content:hover {
     display: block;
 }
-
-.menu-link {
-    position: relative; /* Necesario para posicionar el pseudo-elemento */
-    display: inline-block; /* Permite dimensionar y posicionar el enlace */
-    overflow: hidden; /* Asegura que el pseudo-elemento no se muestre fuera de los límites */
-}
-
-.menu-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%; /* Inicia sin mostrarse */
-    height: 2px; /* Altura de la barra de carga */
-    background-color: #ffffff; /* Color de la barra de carga */
-    transition: width 0.4s ease; /* Transición suave del ancho */
-}
-
-.menu-link:hover::after {
-    width: 100%; /* Extiende la barra de carga a todo el ancho al hacer hover */
-}
-
 
 .btn-menu{
     cursor: pointer;
