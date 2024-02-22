@@ -1,0 +1,97 @@
+.hero-image {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/408996975_1145245899800400_4144525106448103351_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=-TZ7Vii1vakAX9NfPbG&_nc_ht=scontent-sea1-1.xx&oh=00_AfBe-oVDi0xejZf_NULOczWOu0EdD8IcZWCPSoqHN0up8A&oe=65DC2610');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Esto es clave para el efecto */
+    position: relative;
+}
+
+.hero-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 175%);
+    text-align: center;
+}
+
+.hero-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    z-index: -1;
+    height: 120%;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero-text p {
+    margin-top: 1%;
+    font-size: 1.2em;
+}
+
+.hero-text h1, .hero-text p {
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra negra suave */
+}
+
+.containerMenus {
+    display: flex;
+    width: 100%;
+    margin-top: 25%;
+}
+
+.sidebar {
+    width: 30%; /* Barra de menú ocupa el 30% */
+    background-color: #f0f0f0;
+    height: 150vh; /* Ajusta la altura al 100% de la ventana de visualización */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}
+
+.contentMenus {
+    width: 70%; /* Contenedores e imágenes ocupan el 70% restante */
+    padding: 0px;
+    display: flex;
+    flex-direction: column; /* Organiza los elementos verticalmente */
+}
+
+.content-box, .content-image {
+    width: 100%; /* Ocupa todo el ancho disponible del contenedor .content */
+    margin-bottom: 20px;
+}
+
+.content-box {
+    background-color: #e0e0e0;
+    height: 200px; /* Altura fija para los contenedores */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.content-image {
+    height: 200px; /* Altura fija para mantener la consistencia con los contenedores */
+    object-fit: cover; /* Asegura que las imágenes cubran el área designada sin perder proporciones */
+}
+
