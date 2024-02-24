@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
     }, false);
     
-    // Crear el contenedor para el título y los rectángulos..
+    // crear el contenedor para el título y los rectángulos..
     const section = document.createElement('section');
     section.innerHTML = `
     <div class="content">

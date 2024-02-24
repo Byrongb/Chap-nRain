@@ -92,6 +92,6 @@
 
 .content-image {
     height: 20vh; /* Altura fija para mantener la consistencia con los contenedores */
-    object-fit: cover; /* Asegura que las imágenes cubran el área designada sin perder proporciones */
+    object-fit: cover; /* asegura que las imágenes cubran el área designada sin perder proporciones */
 }
 

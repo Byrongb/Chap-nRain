@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
 
     // Asumiendo que tienes un elemento en tu HTML donde quieres insertar esta sección.
-    // Por ejemplo, justo después del header. Asegúrate de tener un contenedor con id="main-content" o ajusta este selector según tu estructura.
+    // Por ejemplo justo después del header. Asegúrate de tener un contenedor con id="main-content" o ajusta este selector según tu estructura.
     document.body.insertBefore(heroSection, document.body.firstChild.nextSibling);
 });
 
