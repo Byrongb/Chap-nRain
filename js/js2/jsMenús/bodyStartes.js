@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     
     <div class="containerMenus">
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
             <div class="restaurant-logo">
                 <a href="index.html">
                     <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428652446_1147418989583091_8085888128990488272_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=IdauGgMYs-AAX-qTIgt&_nc_oc=AQmPil8sjzhSv1E-G8eiLfv71RubO10QD6Y11YNG-HeNVMf8v60VZy9E2tE5NReIXwGhDSG5Qihv_5qbGUF94qij&_nc_ht=scontent-sea1-1.xx&oh=00_AfDadUc2fJxf2otvLwoTQtFYrgLkycX0ZxxGyX5zUYz09Q&oe=65E0BE6B" alt="Logo del Restaurante">
@@ -18,17 +18,29 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <h2>OUR MENU</h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Startes</a></li>
-                <li><a href="#">Main Courses</a></li>
-                <li><a href="#">Chef Recommended</a></li>
-                <li><a href="#">Drinks</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Delivery</a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="startes.html">Startes</a></li>
+                <li><a href="mainCourses.html">Main Courses</a></li>
+                <li><a href="chef.html">Chef Recommended</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
             </ul>
-                <button class="reserve-now">RESERVE NOW</button>
-        </div>
-
+                <button class="reserve-now" id="reserve-now">RESERVE NOW</button>
+                <div class="opening-hours">
+                    <h2>Opening Hours</h2>
+                    <ul>
+                        <li><strong>Monday:    </strong> 9am - 10pm</li>
+                        <li><strong>Tuesday:</strong> 9am - 10pm</li>
+                        <li><strong>Wednesday:</strong> 9am - 10pm</li>
+                        <li><strong>Thursday:</strong> 9am - 10pm</li>
+                        <li><strong>Friday:</strong> 9am - 10pm</li>
+                        <li><strong>Saturday:</strong> 9am - 10pm</li>
+                        <li><strong>Sunday:</strong> 9am - 10pm</li>
+                    </ul>
+                </div>
+    </div>
+        
         <div class="contentMenus">        
             <div class="content-box">
             <h2 class="menu-titleM">STARTES</h2>
@@ -247,5 +259,10 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('home').addEventListener('click', function() { window.location.href = 'index.html'; });
       document.getElementById('about').addEventListener('click', function() { window.location.href = 'about.html'; });
       document.getElementById('deliv').addEventListener('click', function() { window.location.href = 'delivery.html'; });
+      document.getElementById('reserve-now').addEventListener('click', function() { window.location.href = 'reservation.html'; });
+    
       
+
     });
+
+    

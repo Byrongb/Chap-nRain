@@ -18,15 +18,27 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         <h2>OUR MENU</h2>
         <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Startes</a></li>
-        <li><a href="#">Main Courses</a></li>
-        <li><a href="#">Chef Recommended</a></li>
-        <li><a href="#">Drinks</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Delivery</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="startes.html">Startes</a></li>
+        <li><a href="mainCourses.html">Main Courses</a></li>
+        <li><a href="chef.html">Chef Recommended</a></li>
+        <li><a href="drinks.html">Drinks</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="delivery.html">Delivery</a></li>
     </ul>
-    <button class="reserve-now">RESERVE NOW</button>
+    <button class="reserve-now" id="reserve-now" >RESERVE NOW</button>
+    <div class="opening-hours">
+                    <h2>Opening Hours</h2>
+                    <ul>
+                        <li><strong>Monday:</strong> 9am - 10pm</li>
+                        <li><strong>Tuesday:</strong> 9am - 10pm</li>
+                        <li><strong>Wednesday:</strong> 9am - 10pm</li>
+                        <li><strong>Thursday:</strong> 9am - 10pm</li>
+                        <li><strong>Friday:</strong> 9am - 10pm</li>
+                        <li><strong>Saturday:</strong> 9am - 10pm</li>
+                        <li><strong>Sunday:</strong> 9am - 10pm</li>
+                    </ul>
+                </div>
         </div>
 
         <div class="contentMenus">
@@ -249,5 +261,5 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('home').addEventListener('click', function() { window.location.href = 'index.html'; });
       document.getElementById('about').addEventListener('click', function() { window.location.href = 'about.html'; });
       document.getElementById('deliv').addEventListener('click', function() { window.location.href = 'delivery.html'; });
-      
+      document.getElementById('reserve-now').addEventListener('click', function() { window.location.href = 'reservation.html'; });
     });

@@ -58,6 +58,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .restaurant-logo {
@@ -142,6 +143,40 @@ ul li a {
 .sidebar ul li a:hover {
 color: #A47F20;
 transform: scale(1.1);
+}
+
+.opening-hours {
+    background-color: #ffffff00; /* Fondo blanco para destacar la sección */
+    color: #333; /* Texto oscuro para contraste */
+    height: 30%;
+    padding: 20px; /* Espaciado interno */
+    margin-top: 18%; /* Espacio arriba para separar de elementos anteriores */
+    border-radius: 8px; /* Bordes redondeados para suavidad */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil para profundidad */
+    text-align: center; /* Centrar el texto */
+}
+
+.opening-hours h2 {
+    margin-top: 0; /* Elimina el margen superior para el título */
+    margin-bottom: 35px; /* Espacio debajo del título */
+}
+
+.opening-hours ul {
+    list-style: none; /* Elimina los bullets de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+.opening-hours li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+.opening-hours li:last-child {
+    margin-bottom: 0; /* Elimina el margen del último elemento para ajuste */
+}
+
+.opening-hours strong {
+    color: #d5cbac; /* Texto más oscuro para los días de la semana */
 }
 
 
