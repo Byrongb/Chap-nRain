@@ -12,17 +12,17 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="containerMenus">
         <div class="sidebar">
             <div class="restaurant-logo">
-                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429640348_1146884162969907_8591537327758973287_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_ohc=gF3XkD_y8RMAX-gWAY8&_nc_ht=scontent-sea1-1.xx&oh=00_AfDHKf7Wx8adWxGMOaiWRGqZ1yihJv2ImWVrNMTVEQ-rfw&oe=65E040AD" alt="Logo del Restaurante">
+                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428652446_1147418989583091_8085888128990488272_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=IdauGgMYs-AAX-qTIgt&_nc_oc=AQmPil8sjzhSv1E-G8eiLfv71RubO10QD6Y11YNG-HeNVMf8v60VZy9E2tE5NReIXwGhDSG5Qihv_5qbGUF94qij&_nc_ht=scontent-sea1-1.xx&oh=00_AfDadUc2fJxf2otvLwoTQtFYrgLkycX0ZxxGyX5zUYz09Q&oe=65E0BE6B" alt="Logo del Restaurante">
             </div>
         <h2>OUR MENU</h2>
         <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Startes</a></li>
+        <li><a href="#">Main Courses</a></li>
+        <li><a href="#">Chef Recommended</a></li>
+        <li><a href="#">Drinks</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Delivery</a></li>
     </ul>
     <button class="reserve-now">RESERVE NOW</button>
         </div>

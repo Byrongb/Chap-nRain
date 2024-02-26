@@ -53,21 +53,96 @@
     width: 30%; /* Barra de menú ocupa el 30% */
     background-color: #07252D;
     height: 225.9vh; /* Ajusta la altura al 100% de la ventana de visualización */
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.restaurant-logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.restaurant-logo img {
+    width: 100%; /* Ajusta según el tamaño deseado */
+    margin-top: 6rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 1.5rem;
+    color: #A47F20;
+    font-size: 2.2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+.reserve-now {
+    background-color: #A47F20;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    height: 3%;
+    font-size: 120%;
+}
+
+.reserve-now:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del rectángulo (y la imagen) al pasar el cursor */
+    border-radius: 15px;
+}
+
 
 .sidebar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 20px;
+    font-size: 130%;
+    display: flex; /* Convierte la lista en un contenedor flex */
+    flex-direction: column; /* Organiza los elementos de la lista verticalmente */
+    align-items: center;
+}
+
+.sidebar ul li {
+    margin-bottom: 40px; /* Aumenta el espacio entre los elementos del menú */
 }
 
 .sidebar ul li a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     border-bottom: 1px solid #ddd;
+    text-align: center; /* Asegura que el texto dentro de los enlaces también esté centrado */
+    border-bottom: none; /* Elimina la línea entre los elementos */
 }
+
+.sidebar ul li a:hover {
+color: #A47F20;
+transform: scale(1.1);
+}
+
 
 .contentMenus {
     width: 70%; /* Contenedores e imágenes ocupan el 70% restante */
