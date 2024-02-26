@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="containerMenus">
         <div class="sidebar">
             <div class="restaurant-logo">
-                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428652446_1147418989583091_8085888128990488272_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=IdauGgMYs-AAX-qTIgt&_nc_oc=AQmPil8sjzhSv1E-G8eiLfv71RubO10QD6Y11YNG-HeNVMf8v60VZy9E2tE5NReIXwGhDSG5Qihv_5qbGUF94qij&_nc_ht=scontent-sea1-1.xx&oh=00_AfDadUc2fJxf2otvLwoTQtFYrgLkycX0ZxxGyX5zUYz09Q&oe=65E0BE6B" alt="Logo del Restaurante">
+                <a href="index.html">
+                    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428652446_1147418989583091_8085888128990488272_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=IdauGgMYs-AAX-qTIgt&_nc_oc=AQmPil8sjzhSv1E-G8eiLfv71RubO10QD6Y11YNG-HeNVMf8v60VZy9E2tE5NReIXwGhDSG5Qihv_5qbGUF94qij&_nc_ht=scontent-sea1-1.xx&oh=00_AfDadUc2fJxf2otvLwoTQtFYrgLkycX0ZxxGyX5zUYz09Q&oe=65E0BE6B" alt="Logo del Restaurante">
+                </a>
             </div>
         <h2>OUR MENU</h2>
         <ul>
@@ -26,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </ul>
     <button class="reserve-now">RESERVE NOW</button>
         </div>
-        
+
         <div class="contentMenus">
 
         <div class="content-box">
