@@ -18,13 +18,13 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <h2>OUR MENU</h2>
             <ul>
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="startes.html">Startes</a></li>
-                <li><a href="mainCourses.html">Main Courses</a></li>
-                <li><a href="chef.html">Chef Recommended</a></li>
-                <li><a href="drinks.html">Drinks</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="index.html" id="home-link">Home</a></li>
+                <li><a href="startes.html" id="startes-link">Startes</a></li>
+                <li><a href="mainCourses.html" id="mainCourses-link">Main Courses</a></li>
+                <li><a href="chef.html" id="chef-link">Chef Recommended</a></li>
+                <li><a href="drinks.html" id="drinks-link">Drinks</a></li>
+                <li><a href="about.html" id="about-link">About us</a></li>
+                <li><a href="delivery.html" id="delivery-link">Delivery</a></li>
             </ul>
                 <button class="reserve-now" id="reserve-now">RESERVE NOW</button>
                 <div class="opening-hours">
@@ -174,6 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Asumiendo que tienes un elemento en tu HTML donde quieres insertar esta sección.
     // Por ejemplo, justo después del header. Asegúrate de tener un contenedor con id="main-content" o ajusta este selector según tu estructura.
     document.body.insertBefore(heroSection, document.body.firstChild.nextSibling);
+    
 });
 
 

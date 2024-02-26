@@ -53,11 +53,19 @@
 .sidebar {
     width: 30%; /* Barra de menú ocupa el 30% */
     background-color: #07252D;
-    height: 225.9vh; /* Ajusta la altura al 100% de la ventana de visualización */
+    height: 100%; /* Ajusta la altura al 100% de la ventana de visualización */
     padding: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.sidebar ul li a::before,
+.sidebar ul li a::after {
+    content: '◈'; /* Ejemplo de adorno, puedes cambiarlo por cualquier carácter o incluso usar una imagen con content: url(path-to-image); */
+    color: #A47F20; /* Color de los adornos */
+    font-size: 20px; /* Tamaño de los adornos */
+    padding: 0 10px; /* Espacio alrededor de los adornos */
 }
 
 .restaurant-logo {
