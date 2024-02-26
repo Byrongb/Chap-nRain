@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a href="#" class="menu-link">Menús</a>
                 <div class="dropdown-content">
                     <img id="menu1" class="btn-menu" src="https://i.imgur.com/TpTLyB5.png" alt="Imagen 1">
-                    <img id="menu2" class="btn-menu" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428467818_1144279563230367_9211974962490986847_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_ohc=u_iWVvkewjIAX9Jx0gP&_nc_ht=scontent-sea1-1.xx&oh=00_AfAm1DST-z2eyOrdwwjqJRXOQpjZZMx44RjkvW-AuPKfGw&oe=65D826F9" alt="Imagen 2">
-                    <img id="menu3" class="btn-menu" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428464339_1144279566563700_1999147457296360238_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=ytUCNLDsSTsAX9g_cbS&_nc_ht=scontent-sea1-1.xx&oh=00_AfCZAaEEoiSnB3jScx8o7PuzFHsWBqGzjXB_5xwXmUNoxw&oe=65D8A2B8" alt="Imagen 3">
-                    <img id="menu4" class="btn-menu" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/428491929_1144279653230358_3352286630633181731_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=Av9BoQu9ew4AX_dTJGS&_nc_ht=scontent-sea1-1.xx&oh=00_AfBFPdfXmT7RmQ_N7p3nEm4Yy4HLrswWeOE4QJTpbUEOVg&oe=65D971F4" alt="Imagen 4">
+                    <img id="menu2" class="btn-menu" src="https://i.imgur.com/TpTLyB5.png" alt="Imagen 2">
+                    <img id="menu3" class="btn-menu" src="https://i.imgur.com/TpTLyB5.png" alt="Imagen 3">
+                    <img id="menu4" class="btn-menu" src="https://i.imgur.com/TpTLyB5.png" alt="Imagen 4">
                 </div>
 
                 <a id="about" href="#" class="menu-link">About Us</a>
