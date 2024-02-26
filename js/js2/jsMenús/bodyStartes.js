@@ -11,19 +11,25 @@ document.addEventListener('DOMContentLoaded', function() {
     
     <div class="containerMenus">
         <div class="sidebar">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+            <div class="restaurant-logo">
+                <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/429640348_1146884162969907_8591537327758973287_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_ohc=gF3XkD_y8RMAX-gWAY8&_nc_ht=scontent-sea1-1.xx&oh=00_AfDHKf7Wx8adWxGMOaiWRGqZ1yihJv2ImWVrNMTVEQ-rfw&oe=65E040AD" alt="Logo del Restaurante">
+            </div>
+        <h2>OUR MENU</h2>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <button class="reserve-now">RESERVE NOW</button>
         </div>
-        <div class="contentMenus">
-        
-        <div class="content-box">
 
-        <h2 class="menu-titleM">STARTES</h2>
-
+        <div class="contentMenus">        
+            <div class="content-box">
+            <h2 class="menu-titleM">STARTES</h2>
             <div class="menu-itemsM">
                 <div class="menu-itemM">
                 <div class="menu-item-image">

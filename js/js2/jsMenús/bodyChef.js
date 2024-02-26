@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </div>
       `;
-      document.getElementById('home').addEventListener('click', function() { window.location.href = 'index.html'; });
+      document.getElementById('home').addEventListener('click', function() { window.location.href = '/index.html'; });
       document.getElementById('about').addEventListener('click', function() { window.location.href = 'about.html'; });
       document.getElementById('deliv').addEventListener('click', function() { window.location.href = 'delivery.html'; });
       

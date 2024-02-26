@@ -126,12 +126,12 @@
 
  .menu-item-image {
     position: absolute;
-    top: -70%; /* Ajusta esto para controlar la distancia sobre el ítem */
+    top: -15%; /* Ajusta esto para controlar la distancia sobre el ítem */
     left: 50%;
     transform: translateX(-50%);
     background-color: white;
-    width: 100px; /* Ajusta según el tamaño deseado de la imagen */
-    height: 100px; /* Ajusta según el tamaño deseado de la imagen */
+    width: 150px; /* Ajusta según el tamaño deseado de la imagen */
+    height: 150px; /* Ajusta según el tamaño deseado de la imagen */
     display: flex;
     justify-content: center;
     align-items: center;
