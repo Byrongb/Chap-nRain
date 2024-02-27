@@ -226,24 +226,25 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="footer-column">
         <div class="logoF">Chapín<br><span>Rain</span></div>
           <p>Committed to excellence.</p>
-          <div class="social-icons">
-            <img src="icon-facebook.png">
-            <img src="icon-twitter.png">
-            <img src="icon-instagram.png">
+          <div class="social-media-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
         <div class="footer-column">
           <h3>DESCRIPCION GENERAL</h3>
-          <a id="home" href="#" class="general-link">Home</a>
-          <a id="menu" href="#" class="general-link">Menus</a>
-          <a id="deliv" href="#"  class="general-link">Online delivery</a>
-          <a id="about" href="#" class="general-link">About us</a>
+          <a id="home" href="index.html" class="general-link">Home</a>
+          <a id="menu" href="startes.html" class="general-link">Menus</a>
+          <a id="deliv" href="delivery.html"  class="general-link">Online delivery</a>
+          <a id="about" href="about.html" class="general-link">About us</a>
         </div>
         <div class="footer-column">
           <h3>RECURSOS</h3>
-          <a href="#" class="resource-link">Help Center</a>
-          <a href="#" class="resource-link">Terms of use</a>
-          <a href="#" class="resource-link">Privacy Policy</a>
+          <a href="about.html" class="resource-link">Help Center</a>
+          <a href="about.html" class="resource-link">Terms of use</a>
+          <a href="about.html" class="resource-link">Privacy Policy</a>
         </div>
         <div class="footer-column">
           <h3 class="footerFont">CONTACT INFORMATION</h3>

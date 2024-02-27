@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white; /* Fondo suave para todo el cuerpo */
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.titleA{
+    text-align: center;
+}
+
+.pA{
+    text-align: center;
+}
+
+
+.about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff; /* Fondo blanco para el contenedor */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra más pronunciada para profundidad */
+    border: 1px solid #ddd; /* Borde sutil */
+    margin-left: 50px;
+}
+
+.about-container h1, .about-container h2 {
+    color: #333;
+    text-align: center; /* Centra los títulos */
+}
+
+.about-section{
+    margin-top: 5%;
+}
+
+.section-title {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-left: 0; /* Ajuste para alinear con el contenido */
+    font-size: 20px; /* Tamaño más grande para los títulos de sección */
+    border-bottom: 2px solid #eee; /* Línea sutil debajo del título */
+    padding-bottom: 5px; /* Espaciado debajo del título */
+    margin-left: 30px;
+    padding: 50px;
+}
+
+.section-title.active {
+    color: #A47F20; /* Cambia al color cuando la sección está activa */
+}
+
+.section-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 20px; /* Añade padding para alinear con el título */
+    margin-left: 50px;
+}
+
+.section-contentA {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 20px; /* Añade padding para alinear con el título */
+    margin-left: 50px;
+}
+
+.section-contentA li {
+    margin-bottom: 20px; /* Añade espacio debajo de cada elemento li */
+}
+
+ul li {
+    margin-bottom: 20px; /* Añade espacio debajo de cada elemento li */
+}
+
+.expanded {
+    max-height: 500px; /* Ajusta según el contenido máximo esperado */
+}
+
+.resources ul, .social-media {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centra los elementos de la lista */
+}
+
+.resources li, .social-media li {
+    margin-bottom: 10px;
+    display: inline-block; /* Cambio para alinear horizontalmente */
+    margin-right: 15px; /* Espaciado entre elementos */
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    background-color: grey; /* Color de fondo temporal mientras carga el mapa */
+    margin-bottom: 20px; /* Espaciado debajo del mapa */
+}
+
+/* Añade un fondo sutil a todo el cuerpo para darle más diseño */
+body {
+    background-image: url('path-to-your-background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Añade transiciones suaves a los enlaces al pasar el mouse */
+a {
+    transition: color 0.3s ease;
+}
+
+.about-section h2:hover {
+    color: #A47F20;
+    transform: scale(1.050);
+    margin-left: 50px;
+}
+

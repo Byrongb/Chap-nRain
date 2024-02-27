@@ -1,0 +1,62 @@
+body{
+    overflow-x: hidden;
+}
+
+.delivery-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.delivery-container:hover {
+    box-shadow: 0 4px 18px #07252D;
+}
+
+h1 {
+    color: #07252D;
+    text-align: center; /* Centra el título */
+}
+
+#delivery-form button[type="submit"] {
+    display: block; /* Hace que el botón sea un bloque para permitir el centrado */
+    margin: 20px auto; /* Añade margen arriba/abajo y auto a los lados para centrar */
+    padding: 10px 20px; /* Ajusta el padding según necesites */
+    background-color: #07252D; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Elimina el borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a pointer */
+    width: 100%;
+    font-size: 100%;
+}
+
+#delivery-form button:hover[type="submit"] {
+    background-color: #A47F20;
+    transform: scale(1.020);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+    background-color: #A47F20;
+    transform: scale(1.020);
+}

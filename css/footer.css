@@ -1,3 +1,6 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap');
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -28,12 +31,20 @@
     text-decoration: none;
 }
 
-.social-icons img {
-    width: 24px;
-    height: 24px;
+.social-iconsF {
+    width: 44px;
+    height: 44px;
     margin-right: 5px;
 }
 
+.social-media-iconsF {
+    margin-left: 0px;
+}
+
+.social-media-iconsF {
+    
+    font-size: 1.6rem;
+}
 
 .general-link {
     color: #dedede; /* Azul para DESCRIPCION GENERAL */
@@ -51,7 +62,7 @@
 }
 
 .footer-column .logoF span {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .resource-link:hover {
